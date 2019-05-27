@@ -6,6 +6,7 @@ int isEOL(char c) {
     return (c == '\n' || c == '\r' || c == '\0') ? 1 : 0;
 }
 
+// Implementação simplificada - não utilizada, pois a função sprintf não foi abordada em sala de aula
 void intToString(unsigned int number, char *output) {
     sprintf(output, "%u", number);
 }
