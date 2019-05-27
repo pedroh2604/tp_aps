@@ -33,8 +33,7 @@ char *compress(FileData *fileData, int logResults) {
                 }
             }
             cursor += occurences;
-            char numberString[20];
-            intToString(occurences, numberString);
+            char *numberString = intToString2(occurences);
             unsigned int position = 0;
             while(numberString[position] != '\0') {
                 ptrOutput = realloc(ptrOutput, sizeof(char) + (counter * sizeof(char)));

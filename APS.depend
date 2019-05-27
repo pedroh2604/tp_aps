@@ -90,7 +90,7 @@
 1558915100 c:\everything\anhembi\2nd\tecnicas de programação\aps\compress.h
 	"types.h"
 
-1558915100 c:\everything\anhembi\2nd\tecnicas de programação\aps\types.h
+1558926664 c:\everything\anhembi\2nd\tecnicas de programação\aps\types.h
 
 1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\aps\fileutils.c
 	<stdio.h>
@@ -112,7 +112,8 @@
 1558915100 c:\everything\anhembi\2nd\tecnicas de programação\aps\uncompress.h
 	"types.h"
 
-1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\aps\types.c
+1558926422 source:c:\everything\anhembi\2nd\tecnicas de programação\aps\types.c
+	<stdlib.h>
 	<stdio.h>
 	"types.h"
 
