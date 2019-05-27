@@ -65,5 +65,7 @@ void writeFile(char *ptrFullPath, char *ptrData, int logResults) {
         exit(1);
     }
 
+    free(ptrData);
+
     fclose(ptrFile);
 }
