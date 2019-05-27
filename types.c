@@ -41,6 +41,8 @@ char *intToString2(unsigned int number) {
         index++;
     }
 
+    free(temp);
+
     output = realloc(output, sizeof(char) + (index * sizeof(char)));
 
     if (output == NULL) {

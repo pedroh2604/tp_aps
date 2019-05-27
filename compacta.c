@@ -58,6 +58,8 @@ char *compress(FileData *fileData, int logResults) {
                 counter++;
                 position++;
             }
+
+            free(numberString);
         }
     }
 
