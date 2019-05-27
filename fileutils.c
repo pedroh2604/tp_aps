@@ -9,27 +9,29 @@ FileData readFile(char *ptrFullPath, int logResults) {
     int counter = 0;
     FileData fileData;
 
-    if (ptrFile != NULL) {
-        if (logResults) {
-            printf("\nMODO DEPURAÇÃO\n");
-        }
-        printf("\nLendo arquivo %s\n", ptrFullPath);
-        while(!feof(ptrFile)) {
-            ptrData = realloc(ptrData, sizeof(char) + (counter * sizeof(char)));
-            if (ptrData != NULL) {
-                *(ptrData + counter) = fgetc(ptrFile);
-                if (logResults) {
-                    printf("%c", *(ptrData + counter));
-                }
-                counter++;
-            } else {
-                printf("\nERRO: Memória insuficiente");
-                exit(1);
-            }
-        }
-    } else {
+    if (ptrFile == NULL) {
         printf("\nERRO: Não foi possível abrir o arquivo %s", ptrFullPath);
         exit(1);
+    }
+
+    if (logResults) {
+        printf("\nMODO DEPURAÇÃO\n");
+    }
+
+    printf("\nLendo arquivo %s\n", ptrFullPath);
+    while(!feof(ptrFile)) {
+        ptrData = realloc(ptrData, sizeof(char) + (counter * sizeof(char)));
+
+        if (ptrData == NULL) {
+            printf("\nERRO: Memória insuficiente");
+            exit(1);
+        }
+
+        *(ptrData + counter) = fgetc(ptrFile);
+        if (logResults) {
+            printf("%c", *(ptrData + counter));
+        }
+        counter++;
     }
 
     fclose(ptrFile);

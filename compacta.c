@@ -20,11 +20,23 @@ char *compress(FileData *fileData, int logResults) {
         unsigned int occurences = 1;
         if (isEOL(fileData->data[cursor])) {
             ptrOutput = realloc(ptrOutput, sizeof(char) + (counter * sizeof(char)));
+
+            if (ptrOutput == NULL) {
+                printf("\nERRO: Memória insuficiente");
+                exit(1);
+            }
+
             *(ptrOutput + counter) = 'L';
             counter++;
             cursor++;
         } else {
             ptrOutput = realloc(ptrOutput, sizeof(char) + (counter * sizeof(char)));
+
+            if (ptrOutput == NULL) {
+                printf("\nERRO: Memória insuficiente");
+                exit(1);
+            }            
+
             *(ptrOutput + counter) = (fileData->data[cursor]);
             counter++;
             if ((cursor + occurences) < (fileData->size)) {
@@ -37,6 +49,12 @@ char *compress(FileData *fileData, int logResults) {
             unsigned int position = 0;
             while(numberString[position] != '\0') {
                 ptrOutput = realloc(ptrOutput, sizeof(char) + (counter * sizeof(char)));
+
+                if (ptrOutput == NULL) {
+                    printf("\nERRO: Memória insuficiente");
+                    exit(1);
+                }
+
                 *(ptrOutput + counter) = numberString[position];
                 counter++;
                 position++;
@@ -49,6 +67,12 @@ char *compress(FileData *fileData, int logResults) {
     }
 
     ptrOutput = realloc(ptrOutput, sizeof(char) + (counter * sizeof(char)));
+
+    if (ptrOutput == NULL) {
+        printf("\nERRO: Memória insuficiente");
+        exit(1);
+    }
+    
     *(ptrOutput + counter) = EOF;
 
     return ptrOutput;

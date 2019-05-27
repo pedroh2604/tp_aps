@@ -20,6 +20,12 @@ char *uncompress(FileData *fileData, int logResults) {
         unsigned int occurences = 0;
         if (c == 'L') {
             ptrOutput = realloc(ptrOutput, sizeof(char) + (counter * sizeof(char)));
+
+            if (ptrOutput == NULL) {
+                printf("\nERRO: Memória insuficiente");
+                exit(1);
+            }
+
             *(ptrOutput + counter) = '\n';
             counter++;
             if (logResults) {
@@ -32,6 +38,12 @@ char *uncompress(FileData *fileData, int logResults) {
             }
             for (unsigned int n = 0; n < occurences; n++) {
                 ptrOutput = realloc(ptrOutput, sizeof(char) + (counter * sizeof(char)));
+
+                if (ptrOutput == NULL) {
+                    printf("\nERRO: Memória insuficiente");
+                    exit(1);
+                }
+
                 *(ptrOutput + counter) = c;
                 counter++;
             }
@@ -46,6 +58,12 @@ char *uncompress(FileData *fileData, int logResults) {
     }
 
     ptrOutput = realloc(ptrOutput, sizeof(char) + (counter * sizeof(char)));
+
+    if (ptrOutput == NULL) {
+        printf("\nERRO: Memória insuficiente");
+        exit(1);
+    }
+    
     *(ptrOutput + counter) = EOF;
 
     return ptrOutput;
