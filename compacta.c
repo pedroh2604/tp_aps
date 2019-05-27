@@ -4,7 +4,6 @@
 #include "types.h"
 
 char *compress(FileData *fileData, int logResults) {
-
     char *ptrOutput = NULL;
     unsigned int cursor = 0;
     unsigned int counter = 0;
@@ -35,7 +34,7 @@ char *compress(FileData *fileData, int logResults) {
             if (ptrOutput == NULL) {
                 printf("\nERRO: Memória insuficiente");
                 exit(1);
-            }            
+            }
 
             *(ptrOutput + counter) = (fileData->data[cursor]);
             counter++;
@@ -72,7 +71,7 @@ char *compress(FileData *fileData, int logResults) {
         printf("\nERRO: Memória insuficiente");
         exit(1);
     }
-    
+
     *(ptrOutput + counter) = EOF;
 
     return ptrOutput;

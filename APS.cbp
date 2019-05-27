@@ -31,10 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="compress.c">
+		<Unit filename="compacta.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="compress.h">
+		<Unit filename="compacta.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="fileutils.c">
@@ -52,10 +52,10 @@
 		<Unit filename="types.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="uncompress.c">
+		<Unit filename="descompacta.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="uncompress.h">
+		<Unit filename="descompacta.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Extensions>

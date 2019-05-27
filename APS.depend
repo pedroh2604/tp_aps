@@ -4,17 +4,17 @@
 	<stdlib.h>
 	<locale.h>
 	"types.h"
-	"compress.h"
-	"uncompress.h"
+	"compacta.h"
+	"descompacta.h"
 	"fileutils.h"
 
-1558842131 source:c:\users\cmlima\desenvolvimento\uam\tp\aps\compress.c
+1558842131 source:c:\users\cmlima\desenvolvimento\uam\tp\aps\compacta.c
 	<stdio.h>
 	<stdlib.h>
-	"compress.h"
+	"compacta.h"
 	"types.h"
 
-1558842613 c:\users\cmlima\desenvolvimento\uam\tp\aps\compress.h
+1558842613 c:\users\cmlima\desenvolvimento\uam\tp\aps\compacta.h
 	"types.h"
 
 1558842628 c:\users\cmlima\desenvolvimento\uam\tp\aps\types.h
@@ -27,26 +27,26 @@
 1558842621 c:\users\cmlima\desenvolvimento\uam\tp\aps\fileutils.h
 	"types.h"
 
-1558842634 c:\users\cmlima\desenvolvimento\uam\tp\aps\uncompress.h
+1558842634 c:\users\cmlima\desenvolvimento\uam\tp\aps\descompacta.h
 	"types.h"
 
 1558842722 source:c:\users\cmlima\desenvolvimento\uam\tp\aps\types.c
 	<stdio.h>
 	"types.h"
 
-1558842647 source:c:\users\cmlima\desenvolvimento\uam\tp\aps\uncompress.c
+1558842647 source:c:\users\cmlima\desenvolvimento\uam\tp\aps\descompacta.c
 	<stdio.h>
 	<stdlib.h>
-	"uncompress.h"
+	"descompacta.h"
 	"types.h"
 
-1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\compress.c
+1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\compacta.c
 	<stdio.h>
 	<stdlib.h>
-	"compress.h"
+	"compacta.h"
 	"types.h"
 
-1558915100 c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\compress.h
+1558915100 c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\compacta.h
 	"types.h"
 
 1558915100 c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\types.h
@@ -64,30 +64,31 @@
 	<stdlib.h>
 	<locale.h>
 	"types.h"
-	"compress.h"
-	"uncompress.h"
+	"compacta.h"
+	"descompacta.h"
 	"fileutils.h"
 
-1558915100 c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\uncompress.h
+1558915100 c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\descompacta.h
 	"types.h"
 
 1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\types.c
 	<stdio.h>
 	"types.h"
 
-1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\uncompress.c
+1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\descompacta.c
 	<stdio.h>
 	<stdlib.h>
-	"uncompress.h"
+	"descompacta.h"
 	"types.h"
 
-1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\aps\compress.c
+1558931314 source:c:\everything\anhembi\2nd\tecnicas de programação\aps\compacta.c
 	<stdio.h>
 	<stdlib.h>
-	"compress.h"
+	"compacta.h"
 	"types.h"
 
-1558915100 c:\everything\anhembi\2nd\tecnicas de programação\aps\compress.h
+1558915100 c:\everything\anhembi\2nd\tecnicas de programação\aps\compacta.h
+	"types.h"
 	"types.h"
 
 1558926664 c:\everything\anhembi\2nd\tecnicas de programação\aps\types.h
@@ -109,7 +110,8 @@
 	"descompacta.h"
 	"fileutils.h"
 
-1558915100 c:\everything\anhembi\2nd\tecnicas de programação\aps\uncompress.h
+1558915100 c:\everything\anhembi\2nd\tecnicas de programação\aps\descompacta.h
+	"types.h"
 	"types.h"
 
 1558928425 source:c:\everything\anhembi\2nd\tecnicas de programação\aps\types.c
@@ -117,15 +119,9 @@
 	<stdio.h>
 	"types.h"
 
-1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\aps\uncompress.c
+1558928405 source:c:\everything\anhembi\2nd\tecnicas de programação\aps\descompacta.c
 	<stdio.h>
 	<stdlib.h>
-	"uncompress.h"
-	"types.h"
-
-1558915100 c:\everything\anhembi\2nd\tecnicas de programação\aps\compacta.h
-	"types.h"
-
-1558915100 c:\everything\anhembi\2nd\tecnicas de programação\aps\descompacta.h
+	"descompacta.h"
 	"types.h"
 
