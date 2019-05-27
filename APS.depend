@@ -1,0 +1,130 @@
+# depslib dependency file v1.0
+1558842920 source:c:\users\cmlima\desenvolvimento\uam\tp\aps\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"types.h"
+	"compress.h"
+	"uncompress.h"
+	"fileutils.h"
+
+1558842131 source:c:\users\cmlima\desenvolvimento\uam\tp\aps\compress.c
+	<stdio.h>
+	<stdlib.h>
+	"compress.h"
+	"types.h"
+
+1558842613 c:\users\cmlima\desenvolvimento\uam\tp\aps\compress.h
+	"types.h"
+
+1558842628 c:\users\cmlima\desenvolvimento\uam\tp\aps\types.h
+
+1558842594 source:c:\users\cmlima\desenvolvimento\uam\tp\aps\fileutils.c
+	<stdio.h>
+	"fileutils.h"
+	"types.h"
+
+1558842621 c:\users\cmlima\desenvolvimento\uam\tp\aps\fileutils.h
+	"types.h"
+
+1558842634 c:\users\cmlima\desenvolvimento\uam\tp\aps\uncompress.h
+	"types.h"
+
+1558842722 source:c:\users\cmlima\desenvolvimento\uam\tp\aps\types.c
+	<stdio.h>
+	"types.h"
+
+1558842647 source:c:\users\cmlima\desenvolvimento\uam\tp\aps\uncompress.c
+	<stdio.h>
+	<stdlib.h>
+	"uncompress.h"
+	"types.h"
+
+1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\compress.c
+	<stdio.h>
+	<stdlib.h>
+	"compress.h"
+	"types.h"
+
+1558915100 c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\compress.h
+	"types.h"
+
+1558915100 c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\types.h
+
+1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\fileutils.c
+	<stdio.h>
+	"fileutils.h"
+	"types.h"
+
+1558915100 c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\fileutils.h
+	"types.h"
+
+1558922792 source:c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"types.h"
+	"compress.h"
+	"uncompress.h"
+	"fileutils.h"
+
+1558915100 c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\uncompress.h
+	"types.h"
+
+1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\types.c
+	<stdio.h>
+	"types.h"
+
+1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\tp_aps\uncompress.c
+	<stdio.h>
+	<stdlib.h>
+	"uncompress.h"
+	"types.h"
+
+1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\aps\compress.c
+	<stdio.h>
+	<stdlib.h>
+	"compress.h"
+	"types.h"
+
+1558915100 c:\everything\anhembi\2nd\tecnicas de programação\aps\compress.h
+	"types.h"
+
+1558915100 c:\everything\anhembi\2nd\tecnicas de programação\aps\types.h
+
+1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\aps\fileutils.c
+	<stdio.h>
+	"fileutils.h"
+	"types.h"
+
+1558915100 c:\everything\anhembi\2nd\tecnicas de programação\aps\fileutils.h
+	"types.h"
+
+1558925627 source:c:\everything\anhembi\2nd\tecnicas de programação\aps\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"types.h"
+	"compacta.h"
+	"descompacta.h"
+	"fileutils.h"
+
+1558915100 c:\everything\anhembi\2nd\tecnicas de programação\aps\uncompress.h
+	"types.h"
+
+1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\aps\types.c
+	<stdio.h>
+	"types.h"
+
+1558915100 source:c:\everything\anhembi\2nd\tecnicas de programação\aps\uncompress.c
+	<stdio.h>
+	<stdlib.h>
+	"uncompress.h"
+	"types.h"
+
+1558915100 c:\everything\anhembi\2nd\tecnicas de programação\aps\compacta.h
+	"types.h"
+
+1558915100 c:\everything\anhembi\2nd\tecnicas de programação\aps\descompacta.h
+	"types.h"
+
