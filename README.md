@@ -1,2 +1,1 @@
-# TP_APS
-APS de Técnicas de Programação
+# Compactador e descompactador de arquivos texto
